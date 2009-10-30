@@ -5,13 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "contactlist-client"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{The contactlist-client gem is a ruby client to contactlist service which retrieves contact list of email(hotmail, gmail, yahoo, sohu, sina, 163, 126, tom, yeah and 189) and im(msn)}
+    gem.description = %Q{The contactlist-client gem is a ruby client to contactlist service which retrieves contact list of email(hotmail, gmail, yahoo, sohu, sina, 163, 126, tom, yeah and 189) and im(msn)}
     gem.email = "flyerhzm@gmail.com"
     gem.homepage = "http://github.com/flyerhzm/contactlist-client"
     gem.authors = ["Richard Huang"]
-    gem.add_development_dependency "thoughtbot-shoulda"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.files.exclude '.gitignore'
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
