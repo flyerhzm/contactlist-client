@@ -1,6 +1,6 @@
 h1. contactlist-client
 
-The contactlist-client gem is a ruby client to "contactlist":http://github.com/flyerhzm/contactlist service which retrieves contact list of email(hotmail, gmail, yahoo, sohu, sina, 163, 126, tom, yeah and 189) and im(msn)
+The contactlist-client gem is a ruby client to "contactlist":http://github.com/flyerhzm/contactlist service which retrieves contact list of email(hotmail, gmail, yahoo, sohu, sina, 163, 126, tom, yeah, 189 and 139) and im(msn)
 
 **********************************************************
 
