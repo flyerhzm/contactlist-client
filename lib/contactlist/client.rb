@@ -16,6 +16,9 @@ module ContactList
       response = get_response(REQUEST_URI, {'account' => account, 'password' => password, 'type' => type})
       contacts = []
       data = JSON.parse(response.body)
+      
+      raise ContactListException.new(data['error']) if data['error']
+      
       data['contacts'].each do |contact|
         contacts << Contact.new(contact['username'], contact['email'])
       end
@@ -30,6 +33,9 @@ module ContactList
         end
         response
       end
+  end
+  
+  class ContactListException < Exception
   end
 end
 
