@@ -1,0 +1,35 @@
+h1. contactlist-client
+
+The contactlist-client gem is a ruby client to "contactlist":http://github.com/flyerhzm/contactlist service which retrieves contact list of email(hotmail, gmail, yahoo, sohu, sina, 163, 126, tom, yeah and 189) and im(msn)
+
+**********************************************************
+
+h2. install
+
+<pre><code>
+gem sources -a http://gemcutter.org
+gem install contactlist-client
+</code></pre>
+
+**********************************************************
+
+h2. Usage
+
+<pre><code>
+require 'contactlist-client'
+  
+contacts = ContactList::Client.fetch(account, password, type)
+
+contacts.each do |contact|
+  puts "username: #{contact.username}, email: #{contact.email}"
+end
+</code></pre>
+
+* <code>account</code>, string of your email or im account
+* <code>password</code>, string of your password
+* <code>type</code>, string of your email type of im, now support gmail, hotmail, yahoo, sohu, sina, tom, yeah, 163, 126, 189, 139 and msn
+
+**********************************************************
+
+
+Copyright (c) 2009 Richard Huang (flyerhzm@gmail.com). See LICENSE for details.
