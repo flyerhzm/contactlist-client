@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "contactlist-client"
-    gem.summary = %Q{The contactlist-client gem is a ruby client to contactlist service which retrieves contact list of email(hotmail, gmail, yahoo, sohu, sina, 163, 126, tom, yeah and 189) and im(msn)}
-    gem.description = %Q{The contactlist-client gem is a ruby client to contactlist service which retrieves contact list of email(hotmail, gmail, yahoo, sohu, sina, 163, 126, tom, yeah and 189) and im(msn)}
+    gem.summary = %Q{The contactlist-client gem is a ruby client to contactlist service which retrieves contact list of email(hotmail, gmail, yahoo, sohu, sina, 163, 126, tom, yeah, 189 and 139) and im(msn)}
+    gem.description = %Q{The contactlist-client gem is a ruby client to contactlist service which retrieves contact list of email(hotmail, gmail, yahoo, sohu, sina, 163, 126, tom, yeah, 189 and 139) and im(msn)}
     gem.email = "flyerhzm@gmail.com"
     gem.homepage = "http://github.com/flyerhzm/contactlist-client"
     gem.authors = ["Richard Huang"]
