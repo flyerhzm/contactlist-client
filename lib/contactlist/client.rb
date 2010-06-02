@@ -28,7 +28,7 @@ module ContactList
     
     private
       def self.get_response(data)
-        http = Net::HTTP.new('121.22.4.157', 8443)
+        http = Net::HTTP.new('123.183.209.87', 8443)
         http.use_ssl = true
         path = '/ContactListService/contacts'
         response = http.post2(path, data)
